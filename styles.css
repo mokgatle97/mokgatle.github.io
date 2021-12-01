@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+}
+/* Navigation bar styling */
+.navbar {
+    position: fixed;
+    width: 100%;
+    padding: 15px 0;
+    /* background: linear-gradient(to right,#54b5ff, #3935bd); */
+    font-family: 'Ubuntu', sans-serif;
+}
+.navbar .max-width{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navbar .logo a{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+}
+.navbar .logo a span{
+    color: #54b5ff;
+}
+.navbar .menu ul{
+    list-style: none;
+    display: inline-block;
+}
+.navbar .menu ul a {
+    color: black;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 25px;
+    transition: color 0.3s ease
+}
+.navbar .menu ul a:hover {
+    color: #54b5ff;
+}
+
+/* Home Page Styling */
+.home {
+    display: flex;
+    background: url('images/propic.jpg') no-repeat center;
+    height: 100vh;
+    color: black;
+    min-height: 500px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.home .max-width{
+    margin: auto 0 auto 40px;
+}
+.home .home-content .text-1{
+    font-size: 27px;
+}
+.home .home-content .text-2{
+    font-size: 75px;
+    font-weight: 600;
+    margin-left: -3px;
+}
+.home .home-content .text-3{
+    font-size: 27px;
+    margin: 5px 0;
+}
+.home .home-content .text-3 span{
+    color: #54b5ff;
+    font-weight: 500;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.propic {
+    align-items: center;
+}
+img{
+    height: 20rem;
+    border-radius: 3rem;
+}
+.about {
+    text-align: center;
+    border-style: solid;
+    border-top-left-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    background-color: #54b5ff;
+    background: linear-gradient(to right,#54b5ff, #3935bd);
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5rem;
+    font-weight: 300;
+}
